@@ -836,7 +836,7 @@ switch _mode do {
 						{
 							_x params ["_class", "_count"];
 							if (_center canAdd _class) then {
-								_center addMagazine [_x, _count];
+								_center addMagazine [_class, _count];
 							} else {
 								_removedItems pushBack _class;
 							};
@@ -869,7 +869,7 @@ switch _mode do {
 						{
 							_x params ["_class", "_count"];
 							if (_center canAdd _class) then {
-								_center addMagazine [_x, _count];
+								_center addMagazine [_class, _count];
 							} else {
 								_removedItems pushBack _class;
 							};
